@@ -105,3 +105,25 @@ button {
 .information-item {
     width: 150px;
 }
+
+.callout {
+    padding: 100px 300px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.callout h2 {
+    font-weight: 300;
+}
+
+.callout p {
+    text-align: end;
+    font-weight: 800;
+}
+
+.callout-content {
+    max-width: 720px;
+}
