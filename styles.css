@@ -102,7 +102,7 @@ button {
 .information-image {
     width: 150px;
     height: 150px;
-    border: 2px solid blue;
+    border: 2px solid #3882F6;
     border-radius: 20px;
 }
 
