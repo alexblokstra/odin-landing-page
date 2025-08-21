@@ -67,12 +67,21 @@ a {
 }
 
 button {
-    background-color: #3882F6;
-    color: white;
-    border: none;
     padding: 10px 30px;
     border-radius: 10px;
     font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
 }
 
 .information-section h2, .information-section p {
@@ -126,4 +135,22 @@ button {
 
 .callout-content {
     max-width: 720px;
+}
+
+.cta-section {
+    padding: 100px 200px;
+}
+
+.cta-section h3, .cta-section p {
+    margin: 5px;
+}
+
+.cta-card {
+    background-color: #3882F6;
+    color: white;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
 }
