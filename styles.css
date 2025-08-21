@@ -139,6 +139,8 @@ button {
 
 .cta-section {
     padding: 100px 200px;
+    display: flex;
+    justify-content: center;
 }
 
 .cta-section h3, .cta-section p {
@@ -149,8 +151,17 @@ button {
     background-color: #3882F6;
     color: white;
     padding: 50px 100px;
+    width: 100%;
+    max-width: 800px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
 }
